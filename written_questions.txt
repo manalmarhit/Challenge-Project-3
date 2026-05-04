@@ -1,0 +1,29 @@
+Phase 1:
+1- Three most likely starting letters?
+    m (7.9%), k (9.3%), j (7.6%)
+
+2- Three least likely starting letters?
+    (0.24%), q (0.29%), x (0.42%)
+
+3- Three most likely ending letters?
+    h (31.6%), x (23.5%), y (20.5%)
+
+4- Three least likely ending letters?
+    j (2.45%), c (2.75%), p (3.22%)
+
+5- Are there are any letters following 'q' others than 'u'?
+    Yes, q is followed by a, e, i, l, m, o, r, s, and w in some names, though u is by far the most common (206 out of about 273 occurrences).
+
+6- What's the most likely second letter for names that start with 'x'?
+    'a' (14.8%), as in names like "xander" or "xavier".
+
+Phase 2:
+Take a look at the names produced by your method. Do they seem realistic? 
+    Some names look realistic, like the short ones: "elan", "rae", and "kaylen" could pass as real names. 
+    However, many are unrealistic, either being far too long or having awkward letter combinations.
+
+What qualities do you observe?
+    The bigram model only looks one letter back when deciding the next letter, 
+    so it has no sense of overall name length or structure.
+
+Phase 3:
