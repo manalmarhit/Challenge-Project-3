@@ -27,3 +27,23 @@ What qualities do you observe?
     so it has no sense of overall name length or structure.
 
 Phase 3:
+Here is the list of names collected:
+Seed 1: maddoxxz, habab, schning, farrena, raig, ellizavder, zanyam, obaj, adanson, dsaia, ziyaan, galirah, ahla, tallis, khaizagr, jessin, lashela, alei, imrea, youx, saylynn, amiana, emou, mirajul, priton, yannisset, emino, kenlingta, skayley
+Seed 2: delcin, nikka, joh, kynlamie, nako, vieram, balli, karmelyn, jasa, haycin, anison, malauna, venacre, osifata, emmiliane, allina, castan, ismer, ineomer, juliansh, patrish, shorin, malcaten, margarettero, azbal, makaeena, perssie, rafniel, shady, aristez, dilka, betzamy, haedy, gynezmae, rognad, markeyah
+Seed 3: renedicia, nadilyn, mallis, daryck, alki, liddicley, ondi, wnytten, danim, fesson, olywaaf, mouel, daranika, azron, karish, anando, iolan, fer, aliara, gerella, damear, alinshku, melasia, wallow, quontree, daleyah, lumy, racey, misosia, khailan, leddyn, elane, hechodaida, joyc, zakiiah, klyna, sannak, jellee
+Seed 4: mawking, adesa, miti, kaptia, yevan, hayde, nillie, lewesty, corio, johanobi, alylian, kynsendy, deatrya, emary, malieka, kayyan, ramariah, jahirson, peagen, joesh, pravone, firkmy, breatt, josselde, abubakum, annaz, cvarlin, ravneck, alnise, treniti, wayling
+Seed 5: praire, laowoluwan, jenidiss, khylo, dekk, chiocn, montaliose, tabastiun, julynl, marilus, sakyo, aricabhire, aoralee, wesams, adolwamiz, saflyn, rayyam, bobia, marliee, kencent, umai, holf, trastlant, azleigh, granvir, anleigh, orat
+Seed 6: shilviv, osren, kolf, kydrah, kacieon, dal, rubenna, zahla, mickeemion, breylynn, tykio, benkie, eferson, surayya, kittaly, yacez, kualar, hroen, katdel, vishormee, selaniy, asna, summary, daxtan, aslmet, wohaiti, chebi, xania, pmeraldo, hannald
+Seed 7: lufe, azvin, royan, eilannes, ayandrea, layleigh, dalea, phontae, nyami, higa, dedez, caroland, kahlida, deankai, lakende, anjela, kollett, quadry, beurton, edyin, yarcielos, mahikatrif, anwelm, xzura, aadrianna, azelyjah, alymiah, shavyn, jezrion, adnae, iraan, alond, elliafoluwa, aadee, yaryus, elien
+
+Phase 4:
+Compare that map to your first one from the real name data set. What similarities and differences do you observe?
+
+Both heatmaps show the same strong q --> u pattern (the dark square is in roughly the same position)
+Both show that vowels (a, e, i, o) appear frequently as second letters, reflecting natural name structure.
+Most letter combinations have low or zero probability in both.
+
+The makemore heatmap is noticeably more spread out and patchy, more cells have mid-range probabilities, whereas the real data heatmap has more concentrated, consistent patterns
+The real data heatmap shows smoother, more uniform distributions per row because it's built on 32,000 names. 
+The makemore heatmap is noisier because it's only based on 227 names.
+The makemore names show more variety in starting letters, while real names are more concentrated around common starting letters like m, k, and j
