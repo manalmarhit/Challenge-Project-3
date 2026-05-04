@@ -3,7 +3,7 @@ Phase 1:
     m (7.9%), k (9.3%), j (7.6%)
 
 2- Three least likely starting letters?
-    (0.24%), q (0.29%), x (0.42%)
+    u (0.24%), q (0.29%), x (0.42%)
 
 3- Three most likely ending letters?
     h (31.6%), x (23.5%), y (20.5%)
@@ -24,7 +24,9 @@ Take a look at the names produced by your method. Do they seem realistic?
 
 What qualities do you observe?
     The bigram model only looks one letter back when deciding the next letter, 
-    so it has no sense of overall name length or structure.
+    so it has no sense of overall name length or structure. 
+    It can produce very long strings because each transition seems locally valid, 
+    but there is no global control over length or overall coherence.
 
 Phase 3:
 Here is the list of names collected:
